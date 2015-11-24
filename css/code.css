@@ -1,0 +1,22 @@
+pre.code {
+    font-family: Consolas;
+    font-size:13;
+    color:black;
+    background:white;
+}
+
+.comment {
+    color: green;
+}
+
+.keyword {
+    color: blue;
+}
+
+.meta {
+    color: gray;
+}
+
+.type {
+    color:#2b91af
+}

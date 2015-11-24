@@ -1,0 +1,39 @@
+---
+layout: page
+title: Frequently Asked Questions
+permalink: /faq/
+
+faqs:
+ - I found a bug, where do I report it?: Use the <a href="https://github.com/NateShoffner/Tabster/issues">issue tracker</a> to report any bugs..
+ - How do I install plugins?: Plugins are placed in the 'Plugins' directory, located in your installation directory. Subdirectories are fine, as long as they are nested within the 'Plugins' directory.
+ - Can I run Tabster on Mac/Linux?: Currently, Tabster is not 100% Mono-compliant. This may change in the future however.
+ - How do I create plugins?: Plugins can be created using any .NET language by referencing the approciate assemblies. See the <a href="/plugins">plugins</a> page for more information.
+---
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel-group" id="accordion">
+            <h3>Frequently Asked Questions</h3>
+
+            {% for question_hash in page.faqs %}
+
+                {% assign question_number = forloop.index %}
+
+                {% for question in question_hash %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#faq{{ question_number }}">{{ question[0] }}</a></h4>
+                        </div>
+
+                        <div id="faq{{ question_number }}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                {{ question[1] }}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+
+        </div>
+    </div>
+</div>

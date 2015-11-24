@@ -1,0 +1,20 @@
+name: "Tabster"
+title: "Tabster"
+markdown: redcarpet
+permalink: /:title/
+
+release_version: 2.0
+
+google_analytics: UA-42796771-1
+
+navigation:
+- text: Home
+  url: /
+- text: Download
+  url: /download/
+- text: FAQ
+  url: /faq/
+- text: Plugins
+  url: /plugins/
+- text: Donate
+  url: /donate/
