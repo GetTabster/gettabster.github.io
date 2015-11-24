@@ -1,0 +1,111 @@
+---
+
+---
+
+{
+    "latest_version": "{{site.release_version}}",
+    "releases": [
+        {
+            "platform": "win32",
+            "portable": false,
+            "url": ""
+        },
+        {
+            "platform": "win32",
+            "portable": true,
+            "url": ""
+        }
+    ],
+    "changelog": {
+        "2.0": [
+            "Changed: SQLite used for library/playlists/recent items",
+            "Changed: XML file format to binary",
+            "Added: Portable mode",
+            "Added: Proxy settings",
+            "Added: Application-specific printing format",
+            "Added: XML importing/exporting",
+            "Added: HTML importing/exporting",
+            "Added: RTF importing/exporting",
+            "Added: PNG exporting",
+            "Added: PDF importing/exporting",
+            "Added: HTML file exporting",
+            "Added: Rating search filter",
+            "Added: Songsterr support",
+            "Added: Guitartabs.cc support",
+            "Added: Search suggestions",
+            "Added: Ukulele tablature support",
+            "Added: Plugin system",
+            "Fixed: Bug on startup displaying message box when no updates are available",
+            "Changed: Major UI modifications",
+            "Changed: Major codebase refactoring"
+        ],
+        "1.6": [
+            "Added: Downloads sub-library",
+            "Added: Auto-scrolling",
+            "Added: Single-instance functionality",
+            "Added: Persistent window size/state",
+            "Added: Preview pane to library and search",
+            "Changed: Tablature file format",
+            "Added: Forced caching",
+            "Removed: auto-detect",
+            "Removed: Embedded web browser",
+            "Fixed: Various search bugs",
+            "Added: Multi-downloader",
+            "Changed: Minor UI modifications",
+            "Changed: Major codebase refactoring"
+        ],
+        "1.5.1": [
+            "Fixed: Bug with library search filter remaining when library is scanned",
+            "Added: Tablature repair to fix missing XML declarations",
+            "Added: Corrupt file detection",
+            "Added: Option to open downloaded/imported tabs after saving",
+            "Added: Option to open source URL of tabs in library",
+            "Added: Option to search for similar tabs from library",
+            "Fixed bug when clearing library search",
+            "Added: Search feature"
+        ],
+        "1.5": [
+            "Changed: Deleted tabs are now sent to the recycle bin",
+            "Fixed: Bug with newly created tabs not opening",
+            "Fixed: Bug with file association, added file association to Tabster playlists",
+            "Changed: Warning dialog when closing unsaved tabs to display titles for every unsaved tab",
+            "Added: Menu options to show/hide side panel and status bar",
+            "Changed: Filter is now reset when switching sub-libraries",
+            "Added: Library cache for faster startup. (optional)",
+            "Removed: Multiple directory support in favor of central directory",
+            "Added: Save dialog when saving new tab online",
+            "Change: Exporting now supports exporting to either text (.txt) or Tabster (.tabster) file",
+            "Added: Playlists",
+            "Changed: Recent files storage from registory to XML",
+            "Changed: File-naming convention now includes the tablature type to help avoid possible filename collisions",
+            "Changed: Tablature file format to include view count, rating, and difficulty",
+            "Added: Middle click to open library items",
+            "Removed: Error log viewer",
+            "Fixed: Bug when creating new tab and it staying in temporary folder",
+            "Fixed: Bug with improper date sorting",
+            "Added: NSIS-based installer",
+            "Added: Tabbed interface to tab viewer",
+            "Changed: Minor UI modifications",
+            "Changed: Major codebase refactoring"
+        ],
+        "1.1": [
+            "Changed: Minor UI modifications",
+            "Fixed: Bug with persistent saving when closing a newly created tab",
+            "Fixed: Bug when re-scanning library while filter is set",
+            "Fixed: Library not updating properly when tabs modified/deleted",
+            "Added: Favorites option in information dialog",
+            "Added: Download utility",
+            "Added: Error log viewer",
+            "Added: Sublibraries for imported tabs, guitar tabs, guitar chords, bass tabs, drum tabs, and favorites",
+            ""
+        ],
+        "1.0": [
+            "Fixed: Connection timeout when checking for updates",
+            "Changed: Minor UI modifications",
+            "Added: Error logging"
+        ],
+        "1.0": [
+            "Initial release"
+        ]
+    }
+}
