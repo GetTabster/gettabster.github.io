@@ -8,12 +8,14 @@
         {
             "platform": "win32",
             "portable": false,
-            "url": ""
+            "release_url": "",
+            "direct_url": ""
         },
         {
             "platform": "win32",
             "portable": true,
-            "url": ""
+            "release_url": "",
+            "direct_url": ""
         }
     ],
     "changelog": [
