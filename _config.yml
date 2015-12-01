@@ -71,7 +71,7 @@ changelog:
     - change: "Added: Playlists"
     - change: "Changed: Recent files storage from registory to XML"
     - change: "Changed: File-naming convention now includes the tablature type to help avoid possible filename collisions"
-    - change: "Changed: Tablature file format to include view count&#44; rating&#44; and difficulty"
+    - change: "Changed: Tablature file format to include view count, rating, and difficulty"
     - change: "Added: Middle click to open library items"
     - change: "Removed: Error log viewer"
     - change: "Fixed: Bug when creating new tab and it staying in temporary folder"
@@ -89,7 +89,7 @@ changelog:
     - change: "Added: Favorites option in information dialog"
     - change: "Added: Download utility"
     - change: "Added: Error log viewer"
-    - change: "Added: Sublibraries for imported tabs&#44; guitar tabs&#44; guitar chords&#44; bass tabs&#44; drum tabs, and favorites"
+    - change: "Added: Sublibraries for imported tabs, guitar tabs, guitar chords, bass tabs, drum tabs, and favorites"
  - version: "1.0.3"
  - changes:
     - change: "Fixed: Connection timeout when checking for updates"
