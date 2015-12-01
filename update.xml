@@ -1,0 +1,12 @@
+---
+
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <tabster>
+        <version>{{ site.release_version }}</version>
+        <url>http://software.nateshoffner.com/download/tabster</url>
+        <changelog>{% for release in site.changelog %}{% if release.version %}{% if release != site.changelog.first %}&#xD;{% endif %}v{{ release.version }}&#xD;{% endif %}{% for change in release.changes %}- {{ change.change }}&#xD;{% endfor %}{% endfor %}</changelog>
+    </tabster>
+</xml>
