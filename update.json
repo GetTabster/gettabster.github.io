@@ -8,14 +8,14 @@
         {
             "platform": "win32",
             "portable": false,
-            "release_url": "",
-            "direct_url": ""
+            "release_page": "",
+            "download_url": ""
         },
         {
             "platform": "win32",
             "portable": true,
-            "release_url": "",
-            "direct_url": ""
+            "release_page": "",
+            "download_url": ""
         }
     ],
     "changelog": [{% for release in site.changelog %}{% if release.version %} 
