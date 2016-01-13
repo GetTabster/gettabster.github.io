@@ -8,14 +8,14 @@
         {
             "platform": "win32",
             "portable": false,
-            "release_page": "",
-            "download_url": ""
+            "release_page": "https://github.com/NateShoffner/Tabster/releases/tag/{{site.release_version}}",
+            "download_url": "https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}}.exe"
         },
         {
             "platform": "win32",
             "portable": true,
-            "release_page": "",
-            "download_url": ""
+            "release_page": "https://github.com/NateShoffner/Tabster/releases/tag/{{site.release_version}}",
+            "download_url": "https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster Portable {{site.release_version}}.exe"
         }
     ],
     "changelog": [{% for release in site.changelog %}{% if release.version %} 
