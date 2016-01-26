@@ -113,6 +113,10 @@ section h2 {
     section {
         padding: 75px 0;
     }
+
+    section h2 {
+        font-size: 1.9em;
+    }
 }
 
 footer {
