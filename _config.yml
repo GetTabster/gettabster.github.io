@@ -5,6 +5,8 @@ permalink: /:title/
 
 release_version: "2.0"
 
+description: "Tabster is a free, open-source application that allows you to easily create, organize, search, edit, view, and print ASCII tablature for guitar, bass, drums and more."
+
 google_analytics: UA-42796771-1
 
 changelog:
