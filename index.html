@@ -251,7 +251,7 @@ faqs:
                             <li>Tabster.Printing.dll - Used soley for printing tasks, as the name suggests.</li>
                         </ul>
 
-                        <p>Implement the <span class="code-type">ITabsterPlugin</span> interface (shown below) located in the Tabster.Core library. Make sure to provide a valid <span class="code-type">Guid</span> or else it will be ignored. All the other properties are purely for identification purposes for the end-user.</p>
+                        <p>Implement the <a href="#dev">ITabsterPlugin</a> interface (shown below) located in the Tabster.Core library. Make sure to provide a valid <span class="code-type">Guid</span> or else it will be ignored. All the other properties are purely for identification purposes for the end-user.</p>
 
                         <p>The Activate(), Deactivate(), and Initialize() methods are for you to use during their respective events. Users can activate/deactivate plugins at will. The Initialize() method is to be used during startup when the plugin is first initialized.</p>
 
@@ -259,8 +259,9 @@ faqs:
 
                         <p>Your plugin should be placed in the 'Plugins' directory located in the executable directory. Tabster traverses all subdirectories, so feel free to structure your plugin's directories as you see fit.</p>
 
-                        <p>ITabsterPlugin Interface:</p>
-                        <pre class="code"><span class="code-keyword">public</span>&nbsp;<span class="code-keyword">interface</span>&nbsp;<span class="code-type">ITabsterPlugin</span>
+                        <section id="dev">
+                            <p>ITabsterPlugin Interface:</p>
+                            <pre class="code"><span class="code-keyword">public</span>&nbsp;<span class="code-keyword">interface</span>&nbsp;<span class="code-type">ITabsterPlugin</span>
 {
     <span class="code-meta">///</span><span class="code-comment">&nbsp;</span><span class="code-meta">&lt;summary&gt;</span>
     <span class="code-meta">///</span><span class="code-comment">&nbsp;&nbsp;&nbsp;Plugin author.</span>
@@ -312,7 +313,7 @@ faqs:
     <span class="code-meta">///</span><span class="code-comment">&nbsp;</span><span class="code-meta">&lt;/summary&gt;</span>
     <span class="code-keyword">void</span> Initialize();
 }</pre>
-                    
+                        </section>
                     </div>
                 </div>
             </div>
