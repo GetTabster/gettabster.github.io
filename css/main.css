@@ -6,7 +6,7 @@ p {
     font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     text-transform: uppercase;
     font-family: 'Source Code Pro', 'sans-serif', 'serif';
 }
@@ -141,6 +141,10 @@ table {
 
 .download-table > tbody > tr:nth-child(2n+1) > td, .download-table > tbody > tr:nth-child(2n+1) > th {
     background-color: #F9F9F9;
+}
+
+.code-example {
+    padding-top: 70px;
 }
 
 pre.code {
