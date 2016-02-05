@@ -109,15 +109,24 @@ section h2 {
     border-bottom: 1px solid #BDC1C1;
 }
 
+section section {
+    padding-top: -70px;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
+    }
+
+    section section {
+        padding-top: -75px;
     }
 
     section h2 {
         font-size: 1.9em;
     }
 }
+
 
 footer {
     padding: 25px 0;
@@ -141,10 +150,6 @@ table {
 
 .download-table > tbody > tr:nth-child(2n+1) > td, .download-table > tbody > tr:nth-child(2n+1) > th {
     background-color: #F9F9F9;
-}
-
-.code-example {
-    padding-top: 70px;
 }
 
 pre.code {
