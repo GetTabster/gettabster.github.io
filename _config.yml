@@ -8,6 +8,7 @@ google_analytics: UA-42796771-1
 
 changelog:
  - version: "2.0"
+ - date: "-"
  - changes:
     - change: "Changed: SQLite used for library/playlists/recent items"
     - change: "Changed: XML file format to binary"
@@ -30,6 +31,7 @@ changelog:
     - change: "Changed: Major UI modifications"
     - change: "Changed: Major codebase refactoring"
  - version: "1.6"
+ - date: "August 28th, 2013"
  - changes:
     - change: "Added: Downloads sub-library"
     - change: "Added: Auto-scrolling"
@@ -45,6 +47,7 @@ changelog:
     - change: "Changed: Minor UI modifications"
     - change: "Changed: Major codebase refactoring"
  - version: "1.5.1"
+ - date: "June 7th, 2011"
  - changes:
     - change: "Fixed: Bug with library search filter remaining when library is scanned"
     - change: "Added: Tablature repair to fix missing XML declarations"
@@ -55,6 +58,7 @@ changelog:
     - change: "Fixed bug when clearing library search"
     - change: "Added: Search feature"
  - version: "1.5"
+ - date: "June 3rd, 2011"
  - changes:
     - change: "Changed: Deleted tabs are now sent to the recycle bin"
     - change: "Fixed: Bug with newly created tabs not opening"
@@ -80,6 +84,7 @@ changelog:
     - change: "Changed: Minor UI modifications"
     - change: "Changed: Major codebase refactoring"
  - version: "1.1"
+ - date: "January 15th, 2011"
  - changes:
     - change: "Changed: Minor UI modifications"
     - change: "Fixed: Bug with persistent saving when closing a newly created tab"
@@ -90,10 +95,12 @@ changelog:
     - change: "Added: Error log viewer"
     - change: "Added: Sublibraries for imported tabs, guitar tabs, guitar chords, bass tabs, drum tabs, and favorites"
  - version: "1.0.3"
+ - date: "January 7th, 2011"
  - changes:
     - change: "Fixed: Connection timeout when checking for updates"
     - change: "Changed: Minor UI modifications"
     - change: "Added: Error logging"
  - version: "1.0"
+ - date: "January 6th, 2011"
  - changes:
     - change: "Initial release"
