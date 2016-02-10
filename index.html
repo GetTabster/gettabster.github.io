@@ -196,6 +196,36 @@ faqs:
                             </tbody>
                         </table>
                     </div>
+
+                    <div class="col-sm-12">
+
+                        <table class="table table-striped table-responsive">
+                            <thead>
+                                </tr>
+                                    <th>Version</th>
+                                    <th>Released</th>
+                                    <th>Changes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for release in site.changelog %}
+                                {% if release.version %}
+                                <tr>
+                                    <td>{{ release.version }}</td>{% endif %}
+                                    {% if release.date %}<td>{{ release.date }}</td>{% endif %}
+                                    {% if release.changes %}
+                                    <td>                                 
+                                        <ul class="release-changes">
+                                        {% for change in release.changes %}
+                                            <li>{{ change.change }}</li>
+                                        {% endfor %}
+                                        </ul>
+                                    </td>
+                                </tr>
+                                {% endif %}{% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
@@ -411,6 +441,20 @@ faqs:
             $('html, body').animate({scrollTop: 0}, duration);
                 return false;
             })
+        });
+
+        // hide all changes after 5
+        $(".release-changes").each(function() {
+            $("li:gt(4)", this).hide();
+            $("li:nth-child(5)", this).after("<li class=\"more\"><a href=\"#\">More...</a></li>");
+        });
+
+        // restore hidden changes
+        $(".release-changes a").click(function(e) {
+            var li = $(this).parents("li:first");
+            li.parent().children().show();
+            li.remove();
+            return false;
         });
         </script>
     </body>
