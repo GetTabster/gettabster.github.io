@@ -18,13 +18,14 @@
             "download_url": "https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}} Portable.exe"
         }
     ],
-    "changelog": [{% for release in site.changelog %}{% if release.version %} 
+    "changelog": [{% for release in site.changelog %}
         {
-            "version": "{{ release.version }}",{% endif %}{% if release.changes %}
+            "version": "{{ release.version }}",
+            "date": "{{ release.date }}",
             "changes": [{% for change in release.changes %}
-                "{{ change.change }}"{% if change != release.changes.last %},{% endif %}{% endfor %}
+                "{{ change }}"{% if change != release.changes.last %},{% endif %}{% endfor %}
             ]
-        }{% if release != site.changelog.last %},{% endif %}{% endif %}{% endfor %}
+        }{% if release != site.changelog.last %},{% endif %}{% endfor %}
     
     ]
 }
