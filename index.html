@@ -213,20 +213,18 @@ faqs:
                                 </thead>
                                 <tbody>
                                     {% for release in site.changelog %}
-                                    {% if release.version %}
                                     <tr>
-                                        <td>{{ release.version }}</td>{% endif %}
-                                        {% if release.date %}<td>{{ release.date }}</td>{% endif %}
-                                        {% if release.changes %}
+                                        <td>{{ release.version }}</td>
+                                        <td>{{ release.date }}</td>
                                         <td>                                 
                                             <ul class="release-changes">
                                             {% for change in release.changes %}
-                                                <li>{{ change.change }}</li>
+                                                <li>{{ change }}</li>
                                             {% endfor %}
                                             </ul>
                                         </td>
                                     </tr>
-                                    {% endif %}{% endfor %}
+                                    {% endfor %}
                                 </tbody>
                             </table>
                         </div>
