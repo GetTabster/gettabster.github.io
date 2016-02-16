@@ -111,3 +111,20 @@ changelog:
     date: "January 6th, 2011"
     changes:
         - "Initial release"
+
+faqs:
+  -
+    question: I found a bug, where do I report it?
+    answer: Use the <a href="https://github.com/NateShoffner/Tabster/issues" target="_blank">issue tracker</a> to report any bugs..
+  -
+    question: How do I install plugins?
+    answer: Plugins are placed in the 'Plugins' directory, located in your installation directory. Subdirectories are fine, as long as they are nested within the 'Plugins' directory.
+  -
+    question: Can I run Tabster on Mac/Linux?
+    answer: Currently, Tabster is not 100% Mono-compliant. This may change in the future however.
+  -
+    question: How do I create plugins?
+    answer: Plugins can be created using any .NET language by referencing the appropriate assemblies. See the <a href="#plugins">plugins</a> section for more information.
+  -
+    question: What sites/archives able to be searched?
+    answer: Natively, Ultimate Guitar, Guitartabs.cc, and Songsterr are supported with more to likely be added in the future.
