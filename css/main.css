@@ -11,6 +11,10 @@ h1, h2, h3 {
     font-family: 'Source Code Pro', 'sans-serif', 'serif';
 }
 
+.navbar-default .navbar-nav > li > a.github {
+    color: #EDAC65;
+}
+
 .navbar-default {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
