@@ -134,7 +134,7 @@
                                             <small>Full-featured installation. Supports file associations for tablature files.</small>
                                         </td>
                                         <td>
-                                            <button type="button" class="btn dropdown-toggle btn-success" onclick="location.href='https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}} Setup.exe'">Download</button>
+                                            <a href="https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}} Setup.exe" class="btn dropdown-toggle btn-success download">Download</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -144,7 +144,7 @@
                                             <small>Portable, perfect for computers with restricted permissions and/or USB drives.</small>
                                         </td>
                                         <td>
-                                            <button type="button" class="btn dropdown-toggle btn-success" onclick="location.href='https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}} Portable.exe'">Download</button>
+                                            <a href="https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}} Portable.exe" class="btn dropdown-toggle btn-success download">Download</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -154,7 +154,7 @@
                                             <small>Zipped archive containing entire source code from GitHub.</small>
                                         </td>
                                         <td>
-                                            <button type="button" class="btn dropdown-toggle btn-success" onclick="location.href='https://github.com/NateShoffner/Tabster/archive/master.zip'">Download</button>
+                                            <a href="https://github.com/NateShoffner/Tabster/archive/master.zip" class="btn dropdown-toggle btn-success download">Download</a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -263,7 +263,7 @@
                         <p>Plugins allow you to extend Tabsters functionality. Currently, plugins can offer alternative import and export formats as well as search providers.</p>
 
                         <div class="table-responsive">
-                            <table class="table table-striped download-table" id="table-plugins">
+                            <table class="table table-striped download-table">
                                 <thead>
                                     <tr>
                                         <th>Featured Plugins</th>
@@ -271,6 +271,18 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    {% for plugin in site.featured_plugins %}
+                                    <tr>
+                                        <td>
+                                            <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong>
+                                            <br />
+                                            <small>{{ plugin.description }}</small>
+                                        </td>
+                                        <td>
+                                            <a href="{{ plugin.github }}" target="_blank" class="btn dropdown-toggle btn-success download"><i class="fa fa-github"></i>  View</a>
+                                        </td>
+                                    </tr>  
+                                    {% endfor %}
                                 </tbody>
                             </table>
                         </div>
@@ -399,19 +411,6 @@
         <script type="text/javascript" src="/vendor/fancybox/jquery.fancybox.pack.js"></script>
         <link rel="stylesheet" type="text/css" href="/vendor/fancybox/jquery.fancybox.css" media="screen" />
 
-        <script id="plugin-template" type="text/x-jquery-tmpl"> 
-            <tr>
-                <td>
-                    <strong><i class="fa fa-puzzle-piece"></i> {plugin_name}</strong>
-                    <br />
-                    <small>{plugin_description}</small>
-                </td>
-                <td style="vertical-align: middle">
-                    <button type="button" class="btn dropdown-toggle btn-success" onclick="location.href='{plugin_download}'">Download</button>
-                </td>
-            </tr>  
-        </script>
-
         <script type="text/javascript">
         // fancybox initialization
         $(document).ready(function(){
@@ -473,18 +472,6 @@
             li.parent().children().show();
             li.remove();
             return false;
-        });
-
-        $.getJSON("https://api.github.com/users/GetTabster/repos", function(repo_data) {
-            $(repo_data).each(function() {
-                if (this.name.match("^Tabster.Plugin.")) {
-                    var template = $("#plugin-template").html();
-                    template = template.replace("{plugin_name}", this.name.replace("Tabster.Plugin.", ""));
-                    template = template.replace("{plugin_description}", this.description);
-                    template = template.replace("{plugin_download}", "https://github.com/GetTabster/" + this.name + "/releases/latest");
-                    $("#table-plugins > tbody:last-child").append(template)
-                }
-            });
         });
         </script>
     </body>

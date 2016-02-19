@@ -128,3 +128,65 @@ faqs:
   -
     question: What sites/archives able to be searched?
     answer: Natively, Ultimate Guitar, Guitartabs.cc, and Songsterr are supported with more to likely be added in the future.
+
+featured_plugins:
+  - 
+    name: Ultimate Guitar
+    description: Supports ultimate-guitar.com tab searching and downloading.
+    author: Nate Shoffner 
+    github: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
+  -
+    name: Songsterr
+    description: Supports songsterr.com tab searching and downloading.
+    author: Nate Shoffner 
+    github: https://github.com/GetTabster/Tabster.Plugin.Songsterr
+  -
+    name: Guitartabs.cc
+    description: Supports guitartabs.cc tab searching and downloading.
+    author: Nate Shoffner 
+    github: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
+  -
+    name: GuitartabsDotCC
+    description: Supports guitartabs.cc tab searching and downloading.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
+  -
+    name: HtmlFile
+    description: Supports exporting to HTML files.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
+  -
+    name: PdfFile
+    description: Supports importing and exporting to/from PDF files.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.PdfFile
+  -
+    name: PngFile
+    description: Supports exporting to Portable Network Graphics (.png) files.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.PngFile
+  -
+    name: RtfFile
+    description: Supports importing and exporting to/from Rich Text Format (.rtf) files.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.RtfFile
+  -
+    name: Songsterr
+    description: Supports songsterr.com tab searching and downloading.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.Songsterr
+  -
+    name: TextFile
+    description: Supports importing and exporting to/from text (.txt) files.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.TextFile
+  -
+    name: UltimateGuitar
+    description: Supports ultimate-guitar.com tab searching and downloading.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
+  -
+    name: WordDoc
+    description: Supports importing and exporting to/from Microsoft Word (.docx) files.
+    author: Nate Shoffner
+    github: https://github.com/GetTabster/Tabster.Plugin.WordDoc

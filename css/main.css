@@ -136,7 +136,7 @@ table {
     margin-top: 20px;
 }
 
-.download-table td > button {
+.download-table td > a.download {
     float: right;
 }
 
