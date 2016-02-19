@@ -141,11 +141,6 @@ featured_plugins:
     author: Nate Shoffner 
     github: https://github.com/GetTabster/Tabster.Plugin.Songsterr
   -
-    name: Guitartabs.cc
-    description: Supports guitartabs.cc tab searching and downloading.
-    author: Nate Shoffner 
-    github: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
-  -
     name: GuitartabsDotCC
     description: Supports guitartabs.cc tab searching and downloading.
     author: Nate Shoffner
