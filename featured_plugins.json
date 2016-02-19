@@ -1,0 +1,15 @@
+---
+
+---
+
+{
+    "featured_plugins": [{% for plugin in site.featured_plugins %}
+        {
+            "name": "{{ plugin.name }}",
+            "description": "{{ plugin.description }}",
+            "author": "{{ plugin.author }}",
+            "github": "{{ plugin.github }}"
+        }{% if plugin != site.featured_plugins.last %},{% endif %}{% endfor %}
+    ]
+
+}
