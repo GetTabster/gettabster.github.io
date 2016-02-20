@@ -8,7 +8,8 @@
             "name": "{{ plugin.name }}",
             "description": "{{ plugin.description }}",
             "author": "{{ plugin.author }}",
-            "github": "{{ plugin.github }}"
+            "github": "{{ plugin.github }}",
+            "categories": [{% for category in plugin.categories %}"{{ category }}"{% if category != plugin.categories.last %},{% endif %}{% endfor %}]
         }{% if plugin != site.featured_plugins.last %},{% endif %}{% endfor %}
     ]
 
