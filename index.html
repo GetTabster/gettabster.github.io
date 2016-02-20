@@ -2,6 +2,19 @@
 
 ---
 
+{% assign plugin_categories = "" | split: ""  %}
+
+{% for plugin in site.featured_plugins %}
+    {% for category in plugin.categories %}
+        {% if plugin_categories contains category %}
+        {% else %}
+            {% assign plugin_categories = plugin_categories | push: category %}
+        {% endif %}
+    {% endfor %}
+
+
+{% endfor %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -262,29 +275,37 @@
 
                         <p>Plugins allow you to extend Tabsters functionality. Currently, plugins can offer alternative import and export formats as well as search providers.</p>
 
-                        <div class="table-responsive">
-                            <table class="table table-striped download-table">
-                                <thead>
-                                    <tr>
-                                        <th>Featured Plugins</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% for plugin in site.featured_plugins %}
-                                    <tr>
-                                        <td>
-                                            <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong>
-                                            <br />
-                                            <small>{{ plugin.description }}</small>
-                                        </td>
-                                        <td>
-                                            <a href="{{ plugin.github }}" target="_blank" class="btn dropdown-toggle btn-success download"><i class="fa fa-github"></i>  View on Github</a>
-                                        </td>
-                                    </tr>  
-                                    {% endfor %}
-                                </tbody>
-                            </table>
+                        <h3>Featured Plugins</h3>
+
+                        <ul class="nav nav-tabs">
+                        {% for category in plugin_categories %}
+                            <li{% if category == plugin_categories.first %} class="active"{% endif %}><a data-toggle="tab" href="#plugins-{{ category | replace: ' ', '' | downcase  }}">{{ category }}</a></li>
+                        {% endfor %}
+                        </ul>
+
+                        <div class="tab-content">
+                        {% for category in plugin_categories %}
+                            <div id="plugins-{{ category | replace: ' ', '' | downcase  }}" class="tab-pane fade in{% if category == plugin_categories.first %} active{% endif %}">
+                                <div class="table-responsive">
+                                    <table class="table table-striped download-table">
+                                        <tbody>
+                                            {% for plugin in site.featured_plugins %}{% if plugin.categories contains category %}
+                                            <tr>
+                                                <td>
+                                                    <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong>
+                                                    <br />
+                                                    <small>{{ plugin.description }}</small>
+                                                </td>
+                                                <td>
+                                                    <a href="{{ plugin.github }}" target="_blank" class="btn dropdown-toggle btn-success download"><i class="fa fa-github"></i>  View on Github</a>
+                                                </td>
+                                            </tr>  
+                                            {% endif %}{% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                        {% endfor %}
                         </div>
 
                         <h3>Development</h3>
