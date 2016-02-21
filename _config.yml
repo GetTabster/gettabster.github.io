@@ -131,7 +131,7 @@ featured_plugins:
     description: Supports ultimate-guitar.com tab searching and downloading.
     version: 1.0
     author: Nate Shoffner 
-    github: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
+    website: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
     categories:
         - Searching
   -
@@ -139,7 +139,7 @@ featured_plugins:
     description: Supports songsterr.com tab searching and downloading.
     version: 1.0
     author: Nate Shoffner 
-    github: https://github.com/GetTabster/Tabster.Plugin.Songsterr
+    website: https://github.com/GetTabster/Tabster.Plugin.Songsterr
     categories:
         - Searching
   -
@@ -147,7 +147,7 @@ featured_plugins:
     description: Supports guitartabs.cc tab searching and downloading.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
+    website: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
     categories:
         - Searching
   -
@@ -155,7 +155,7 @@ featured_plugins:
     description: Supports exporting to HTML files.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
+    website: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
     categories:
         - Exporting
   -
@@ -163,7 +163,7 @@ featured_plugins:
     description: Supports importing and exporting to/from PDF files.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.PdfFile
+    website: https://github.com/GetTabster/Tabster.Plugin.PdfFile
     categories:
         - Importing
         - Exporting
@@ -172,7 +172,7 @@ featured_plugins:
     description: Supports exporting to Portable Network Graphics (.png) files.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.PngFile
+    website: https://github.com/GetTabster/Tabster.Plugin.PngFile
     categories:
         - Exporting
   -
@@ -180,7 +180,7 @@ featured_plugins:
     description: Supports importing and exporting to/from Rich Text Format (.rtf) files.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.RtfFile
+    website: https://github.com/GetTabster/Tabster.Plugin.RtfFile
     categories:
         - Importing
         - Exporting
@@ -189,7 +189,7 @@ featured_plugins:
     description: Supports importing and exporting to/from text (.txt) files.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.TextFile
+    website: https://github.com/GetTabster/Tabster.Plugin.TextFile
     categories:
         - Importing
         - Exporting
@@ -198,6 +198,6 @@ featured_plugins:
     description: Supports importing and exporting to/from Microsoft Word (.docx) files.
     version: 1.0
     author: Nate Shoffner
-    github: https://github.com/GetTabster/Tabster.Plugin.WordDoc
+    website: https://github.com/GetTabster/Tabster.Plugin.WordDoc
     categories:
         - Importing
