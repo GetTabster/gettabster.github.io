@@ -292,7 +292,7 @@
                                             {% for plugin in site.featured_plugins %}{% if plugin.categories contains category %}
                                             <tr>
                                                 <td>
-                                                    <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong>
+                                                    <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong> <small>v{{ plugin.version }}</small>
                                                     <br />
                                                     <small>{{ plugin.description }}</small>
                                                 </td>

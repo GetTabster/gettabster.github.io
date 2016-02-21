@@ -7,6 +7,7 @@
         {
             "name": "{{ plugin.name }}",
             "description": "{{ plugin.description }}",
+            "description": "{{ plugin.description }}",
             "author": "{{ plugin.author }}",
             "github": "{{ plugin.github }}",
             "categories": [{% for category in plugin.categories %}"{{ category }}"{% if category != plugin.categories.last %},{% endif %}{% endfor %}]
