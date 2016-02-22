@@ -156,33 +156,6 @@ table {
     background-color: #F9F9F9;
 }
 
-pre.code {
-    font-family: Consolas;
-    font-size: 13px;
-    color: black;
-    background: #FFFFFF;
-}
-
-.code-comment {
-    color: #008000;
-}
-
-.code-keyword {
-    color: #0000FF;
-}
-
-.code-meta {
-    color: #808080;
-}
-
-.code-type {
-    color: #2B91AF
-}
-
-.paypal {
-    margin-top: 25px;
-}
-
 .scroll-to-top {
     position: fixed;
     cursor: pointer;
