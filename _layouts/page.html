@@ -91,6 +91,14 @@
             return true;
         }
 
+        // anchor easing on page load
+        $(document).ready(function() {
+            if (window.location.hash != null) {
+                var anchor = $(window.location.hash);
+                jumpToAnchor(anchor);
+            }
+        });
+
         // anchor link easing 
         $(function() {
             $("[href*=#]").on("click", function(e) {
