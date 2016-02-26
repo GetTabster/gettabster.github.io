@@ -6,7 +6,7 @@
 <xml>
     <tabster>
         <version>{{ site.release_version }}</version>
-        <url>http://software.nateshoffner.com/download/tabster</url>
+        <url>https://github.com/NateShoffner/Tabster/releases/download/{{site.release_version}}/Tabster {{site.release_version}} Setup.exe</url>
         <changelog>{% for release in site.changelog %}{% if release != site.changelog.first %}&#xD;{% endif %}v{{ release.version }}&#xD;{% for change in release.changes %}- {{ change }}&#xD;{% endfor %}{% endfor %}</changelog>
     </tabster>
 </xml>
