@@ -6,7 +6,7 @@ header: true
 
 {% assign plugin_categories = "" | split: ""  %}
 
-{% for plugin in site.featured_plugins %}
+{% for plugin in site.data.featured_plugins %}
     {% for category in plugin.categories %}
         {% if plugin_categories contains category %}
         {% else %}
@@ -107,7 +107,7 @@ header: true
                             </tr>
                         </thead>
                         <tbody>
-                            {% for release in site.changelog %}
+                            {% for release in site.data.changelog %}
                             <tr>
                                 <td>{{ release.version }}</td>
                                 <td>{{ release.date }}</td>
@@ -134,7 +134,7 @@ header: true
             <div class="col-lg-12">
                 <h2>Frequently Asked Questions</h2>
                 <div class="panel-group" id="accordion">
-                    {% for faq in site.faqs %}
+                    {% for faq in site.data.faq %}
                     {% assign question_number = forloop.index %}
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -171,7 +171,7 @@ header: true
                         <div class="table-responsive">
                             <table class="table table-striped download-table">
                                 <tbody>
-                                    {% for plugin in site.featured_plugins %}{% if plugin.categories contains category %}
+                                    {% for plugin in site.data.featured_plugins %}{% if plugin.categories contains category %}
                                     <tr>
                                         <td>
                                             <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong> <small>v{{ plugin.version }}</small>

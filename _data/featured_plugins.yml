@@ -1,0 +1,74 @@
+  - name: Ultimate Guitar
+    description: Supports ultimate-guitar.com tab searching and downloading.
+    version: 1.0
+    author: Nate Shoffner 
+    website: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
+    categories:
+        - Searching
+
+  - name: Songsterr
+    description: Supports songsterr.com tab searching and downloading.
+    version: 1.0
+    author: Nate Shoffner 
+    website: https://github.com/GetTabster/Tabster.Plugin.Songsterr
+    categories:
+        - Searching
+
+  - name: GuitartabsDotCC
+    description: Supports guitartabs.cc tab searching and downloading.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
+    categories:
+        - Searching
+
+  - name: HtmlFile
+    description: Supports exporting to HTML files.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
+    categories:
+        - Exporting
+
+  - name: PdfFile
+    description: Supports importing and exporting to/from PDF files.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.PdfFile
+    categories:
+        - Importing
+        - Exporting
+
+  - name: PngFile
+    description: Supports exporting to Portable Network Graphics (.png) files.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.PngFile
+    categories:
+        - Exporting
+
+  - name: RtfFile
+    description: Supports importing and exporting to/from Rich Text Format (.rtf) files.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.RtfFile
+    categories:
+        - Importing
+        - Exporting
+
+  - name: TextFile
+    description: Supports importing and exporting to/from text (.txt) files.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.TextFile
+    categories:
+        - Importing
+        - Exporting
+
+  - name: WordDoc
+    description: Supports importing and exporting to/from Microsoft Word (.docx) files.
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.WordDoc
+    categories:
+        - Importing
