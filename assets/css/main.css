@@ -16,6 +16,10 @@ h1, h2, h3 {
     font-family: 'Source Code Pro', 'sans-serif', 'serif';
 }
 
+ul.nav li a {
+    outline: 0;
+}
+
 .navbar-default .navbar-nav > li {
     letter-spacing: .4px;
 }
