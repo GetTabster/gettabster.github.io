@@ -12,3 +12,6 @@
 
 - question: What sites/archives able to be searched?
   answer: Natively, Ultimate Guitar, Guitartabs.cc, and Songsterr are supported with more to likely be added in the future.
+
+- question: Is Tabster open-source?
+  answer: Yes, Tabster is open-source and licensed under the Apache License, Version 2.0
