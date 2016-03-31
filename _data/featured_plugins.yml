@@ -4,6 +4,7 @@
     version: 1.0
     author: Nate Shoffner 
     website: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
+    download: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar/releases/download/1.0/UltimateGuitar.zip
     categories:
         - Searching
 
@@ -13,6 +14,7 @@
     version: 1.0
     author: Nate Shoffner 
     website: https://github.com/GetTabster/Tabster.Plugin.Songsterr
+    download: https://github.com/GetTabster/Tabster.Plugin.Songsterr/releases/download/1.0/Songsterr.zip
     categories:
         - Searching
 
@@ -22,6 +24,7 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
+    download: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC/releases/download/1.0/GuitartabsDotCC.zip
     categories:
         - Searching
 
@@ -31,6 +34,7 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
+    download: https://github.com/GetTabster/Tabster.Plugin.HtmlFile/releases/download/1.0/HtmlFile.zip
     categories:
         - Exporting
 
@@ -40,6 +44,7 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.PdfFile
+    download: https://github.com/GetTabster/Tabster.Plugin.PdfFile/releases/download/1.0/PdfFile.zip
     categories:
         - Importing
         - Exporting
@@ -50,6 +55,7 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.PngFile
+    download: https://github.com/GetTabster/Tabster.Plugin.PngFile/releases/download/1.0/PngFile.zip
     categories:
         - Exporting
 
@@ -59,6 +65,7 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.RtfFile
+    download: https://github.com/GetTabster/Tabster.Plugin.RtfFile/releases/download/1.0/RtfFile.zip
     categories:
         - Importing
         - Exporting
@@ -69,6 +76,7 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.TextFile
+    download: https://github.com/GetTabster/Tabster.Plugin.TextFile/releases/download/1.0/TextFile.zip
     categories:
         - Importing
         - Exporting
@@ -79,5 +87,6 @@
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.WordDoc
+    download: https://github.com/GetTabster/Tabster.Plugin.WordDoc/releases/download/1.0/WordDoc.zip
     categories:
         - Importing
