@@ -1,5 +1,6 @@
   - name: Ultimate Guitar
     description: Supports ultimate-guitar.com tab searching and downloading.
+    native: true
     version: 1.0
     author: Nate Shoffner 
     website: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar
@@ -8,6 +9,7 @@
 
   - name: Songsterr
     description: Supports songsterr.com tab searching and downloading.
+    native: true
     version: 1.0
     author: Nate Shoffner 
     website: https://github.com/GetTabster/Tabster.Plugin.Songsterr
@@ -16,6 +18,7 @@
 
   - name: GuitartabsDotCC
     description: Supports guitartabs.cc tab searching and downloading.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC
@@ -24,6 +27,7 @@
 
   - name: HtmlFile
     description: Supports exporting to HTML files.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
@@ -32,6 +36,7 @@
 
   - name: PdfFile
     description: Supports importing and exporting to/from PDF files.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.PdfFile
@@ -41,6 +46,7 @@
 
   - name: PngFile
     description: Supports exporting to Portable Network Graphics (.png) files.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.PngFile
@@ -49,6 +55,7 @@
 
   - name: RtfFile
     description: Supports importing and exporting to/from Rich Text Format (.rtf) files.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.RtfFile
@@ -58,6 +65,7 @@
 
   - name: TextFile
     description: Supports importing and exporting to/from text (.txt) files.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.TextFile
@@ -67,6 +75,7 @@
 
   - name: WordDoc
     description: Supports importing and exporting to/from Microsoft Word (.docx) files.
+    native: true
     version: 1.0
     author: Nate Shoffner
     website: https://github.com/GetTabster/Tabster.Plugin.WordDoc
