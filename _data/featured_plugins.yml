@@ -28,17 +28,17 @@
     categories:
         - Searching
 
-  - name: HtmlFile
+  - name: HtmlExport
     description: Supports exporting to HTML files.
     native: true
     version: 1.0
     author: Nate Shoffner
-    website: https://github.com/GetTabster/Tabster.Plugin.HtmlFile
-    download: https://github.com/GetTabster/Tabster.Plugin.HtmlFile/releases/download/v1.0/HtmlFile.zip
+    website: https://github.com/GetTabster/Tabster.Plugin.HtmlExport
+    download: https://github.com/GetTabster/Tabster.Plugin.HtmlExport/releases/download/v1.0/HtmlExport.zip
     categories:
         - Exporting
 
-  - name: PdfFile
+  - name: PDFFile
     description: Supports importing and exporting to/from PDF files.
     native: true
     version: 1.0
@@ -49,13 +49,13 @@
         - Importing
         - Exporting
 
-  - name: PngFile
+  - name: PNGExport
     description: Supports exporting to Portable Network Graphics (.png) files.
     native: true
     version: 1.0
     author: Nate Shoffner
-    website: https://github.com/GetTabster/Tabster.Plugin.PngFile
-    download: https://github.com/GetTabster/Tabster.Plugin.PngFile/releases/download/v1.0/PngFile.zip
+    website: https://github.com/GetTabster/Tabster.Plugin.PngExport
+    download: https://github.com/GetTabster/Tabster.Plugin.PngExport/releases/download/v1.0/PngExport.zip
     categories:
         - Exporting
 
