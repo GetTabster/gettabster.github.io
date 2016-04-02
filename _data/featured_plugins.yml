@@ -18,7 +18,7 @@
     categories:
         - Searching
 
-  - name: GuitartabsDotCC
+  - name: Guitartabs.cc
     description: Supports guitartabs.cc tab searching and downloading.
     native: true
     version: 1.0
