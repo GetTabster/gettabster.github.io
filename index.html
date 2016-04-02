@@ -5,7 +5,7 @@ header: true
 ---
 
 {% assign plugin_categories = "" | split: ""  %}
-
+{% assign plugin_categories = plugin_categories | push: "All" %}
 {% for plugin in site.data.featured_plugins %}
     {% for category in plugin.categories %}
         {% if plugin_categories contains category %}
@@ -167,11 +167,11 @@ header: true
                 </ul>
                 <div class="tab-content">
                     {% for category in plugin_categories %}
-                    <div id="plugins-{{ category | replace: ' ', '' | downcase  }}" class="tab-pane fade in{% if category == plugin_categories.first %} active{% endif %}">
+                    <div id="plugins-{{ category | replace: ' ', '' | downcase }}" class="tab-pane fade in{% if category == plugin_categories.first %} active{% endif %}">
                         <div class="table-responsive">
                             <table class="table table-striped download-table">
                                 <tbody>
-                                    {% for plugin in site.data.featured_plugins %}{% if plugin.categories contains category %}
+                                    {% for plugin in site.data.featured_plugins %}{% if category == 'All' or plugin.categories contains category %}
                                     <tr>
                                         <td>
                                             <strong><i class="fa fa-puzzle-piece"></i> {{ plugin.name }}</strong> <small>v{{ plugin.version }}</small>
