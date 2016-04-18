@@ -7,6 +7,7 @@
     download: https://github.com/GetTabster/Tabster.Plugin.UltimateGuitar/releases/download/v1.0/UltimateGuitar.zip
     categories:
         - Searching
+        - Downloading
 
   - name: Songsterr
     description: Supports songsterr.com tab searching and downloading.
@@ -17,6 +18,7 @@
     download: https://github.com/GetTabster/Tabster.Plugin.Songsterr/releases/download/v1.0/Songsterr.zip
     categories:
         - Searching
+        - Downloading
 
   - name: Guitartabs.cc
     description: Supports guitartabs.cc tab searching and downloading.
@@ -27,6 +29,7 @@
     download: https://github.com/GetTabster/Tabster.Plugin.GuitartabsDotCC/releases/download/v1.0/GuitartabsDotCC.zip
     categories:
         - Searching
+        - Downloading
 
   - name: HtmlExport
     description: Supports exporting to HTML files.
@@ -100,3 +103,4 @@
     download: https://github.com/GetTabster/Tabster.Plugin.GuitarTabsExplorer/releases/download/v1.0/GuitarTabsExplorer.zip
     categories:
         - Searching
+        - Downloading
