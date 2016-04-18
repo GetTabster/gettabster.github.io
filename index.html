@@ -179,7 +179,7 @@ header: true
                                             <small>{{ plugin.description }}</small>
                                         </td>
                                         <td>
-                                            <a href="{{ plugin.website }}" target="_blank" class="btn dropdown-toggle btn-success download"><i class="fa fa-download"></i>  Download</a>
+                                            <a href="{{ plugin.download }}" target="_blank" class="btn dropdown-toggle btn-success download"><i class="fa fa-download"></i>  Download</a>
                                         </td>
                                     </tr>
                                     {% endif %}{% endfor %}
@@ -189,6 +189,10 @@ header: true
                     </div>
                     {% endfor %}
                 </div>
+
+                <h3>Installation</h3>
+                <p>To install plugins, locate the plugin directory (%APPDATA%/Tabster/Plugins) and extract the appropriate .zip file into the directory. Restart Tabster if it is already running.</p>
+
                 <h3>Development</h3>
                 <p>For information on how to create plugins for Tabster, please refer to the <a href="https://github.com/GetTabster/Tabster/wiki/Plugin-Development" target="_blank">Plugin Development</a> documentation.</p>
             </div>
