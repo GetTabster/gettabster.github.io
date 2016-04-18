@@ -90,3 +90,13 @@
     download: https://github.com/GetTabster/Tabster.Plugin.WordDoc/releases/download/v1.0/WordDoc.zip
     categories:
         - Importing
+
+  - name: GuitarTabsExplorer
+    description: Supports guitartabsexplorer.com tab searching and downloading.
+    native: true
+    version: 1.0
+    author: Nate Shoffner
+    website: https://github.com/GetTabster/Tabster.Plugin.GuitarTabsExplorer
+    download: https://github.com/GetTabster/Tabster.Plugin.GuitarTabsExplorer/releases/download/v1.0/GuitarTabsExplorer.zip
+    categories:
+        - Searching
