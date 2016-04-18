@@ -1,4 +1,4 @@
-  - name: Ultimate Guitar
+  - name: UltimateGuitar
     description: Supports ultimate-guitar.com tab searching and downloading.
     native: true
     version: 1.0
