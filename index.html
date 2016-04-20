@@ -138,13 +138,13 @@ header: true
                     {% assign question_number = forloop.index %}
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title question"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#faq{{ question_number }}">{{ faq.question }}</a></h4>
+                            <h4 class="panel-title question"><a class="accordion-toggle no-easing" data-toggle="collapse" data-parent="#accordion" href="#faq{{ question_number }}">{{ faq.question }}</a></h4>
                         </div>
                         <div id="faq{{ question_number }}" class="panel-collapse collapse">
                             <div class="panel-body">
                                 {{ faq.answer }}
                             </div>
-                        </div>
+                        </div>  
                     </div>
                     {% endfor %}
                 </div>

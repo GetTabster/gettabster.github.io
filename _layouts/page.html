@@ -102,9 +102,9 @@
         // anchor link easing 
         $(function() {
             $("[href*=#]").on("click", function(e) {
-                var isPageTop = $(this).attr("class") != null && $(this).attr("class").indexOf("page-top") >= 0;
+                var easingDisabled = $(this).attr("class") != null && $(this).attr("class").indexOf("no-easing") >= 0;
 
-                if (!isPageTop) {
+                if (!easingDisabled) {
                     var anchor = $($(this).attr("href"));
 
                     if (anchor != null) {                        
