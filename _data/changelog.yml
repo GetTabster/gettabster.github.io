@@ -3,6 +3,7 @@
     changes:
         - "Changed: SQLite used for library/playlists/recent items"
         - "Changed: XML file format to binary"
+        - "Added: Guitar Tabs Explorer searching"
         - "Added: Portable mode"
         - "Added: Proxy settings"
         - "Added: Application-specific printing format"
